@@ -1,0 +1,48 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-heading: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-cursive: 'Caveat', cursive;
+
+  /* Warm SoftLoop Studio aesthetic palette: warm oatmeal cream, rosewood terracota, sage, charcoal */
+  --color-charcoal: #2c2623;
+  --color-charcoal-soft: #665b53;
+  --color-cream: #f9f5f0;
+  --color-cream-card: #fffdf9;
+  --color-cream-deep: #f2e9de;
+  --color-rose: #b86b5c;
+  --color-rose-dark: #964f42;
+  --color-rose-light: #f7ebe8;
+  --color-sage: #5f7a65;
+  --color-sage-dark: #465b4b;
+  --color-sage-light: #e6ece4;
+
+  --color-line: #e6dacb;
+  --color-sky: #ded3cb;
+  --color-mist: #c9beb3;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-charcoal);
+  background-color: var(--color-cream);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+}
+
+.font-cursive {
+  font-family: var(--font-cursive);
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

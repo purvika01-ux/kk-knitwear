@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(cd \"C:\\\\Users\\\\anand\\\\Desktop\\\\KK Knitwear Redesign\" && find images -type f && mkdir -p public/images && mv images/* public/images/ && rmdir images && ls -R public/images)",
+      "Bash(npm run *)",
+      "Bash(node -e \"console.log\\(process.version\\)\")",
+      "Bash(convert --version)",
+      "Bash(file company/*.jpg products/*.jpg products/*.png)",
+      "Bash(node \"C:\\\\Users\\\\anand\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-anand-Desktop-KK-Knitwear-Redesign\\\\b9846361-a5a2-4be5-a6d0-cda9df4cc63e\\\\scratchpad\\\\contrast.js\")",
+      "Bash(node -e \"console.log\\(require\\('./node_modules/framer-motion/package.json'\\).version\\)\")",
+      "Bash(node -e ' *)",
+      "Bash(node -e \"console.log\\(require\\('./node_modules/tailwindcss/package.json'\\).version\\)\")",
+      "Bash(grep -o \"md\\\\\\\\\\\\\\\\:h-auto[^{]*{[^}]*}\" dist/assets/*.css)",
+      "Bash(grep -o \"md\\\\\\\\\\\\\\\\:opacity-100[^{]*{[^}]*}\" dist/assets/*.css)",
+      "Bash(node -e \"console.log\\(typeof require\\('framer-motion'\\).animate\\)\")",
+      "Bash(find /tmp /c/Users/anand/AppData/Local/Temp -maxdepth 3 -newermt '-10 minutes' \\\\\\( -iname \"*.png\" -o -iname \"*.jpg\" -o -iname \"*.jpeg\" \\\\\\) 2>/dev/null)",
+      "Bash(find \"C:\\\\Users\\\\anand\\\\AppData\\\\Local\\\\Temp\\\\claude\" -newermt '-15 minutes' -type f 2>/dev/null | head -50)",
+      "Bash(xargs -I{} ls -la \"{}\")",
+      "Bash(sort -k6,7)"
+    ]
+  }
+}
